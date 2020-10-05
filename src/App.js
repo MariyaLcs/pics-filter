@@ -5,13 +5,15 @@ import SearchBar from "./SearchBar";
 const accessKey = process.env.REACT_APP_YOUR_ACCESS_KEY;
 
 class App extends React.Component {
-  onSearchSubmit(term) {
-    axios.get("https://api.unsplash.com/search/photos", {
+  async onSearchSubmit(term) {
+    const response = await axios.get("https://api.unsplash.com/search/photos", {
       params: { query: term },
       headers: {
         Authorization: `Client-ID ${accessKey}`,
       },
     });
+
+    console.log(response.data.results);
   }
   render() {
     return (

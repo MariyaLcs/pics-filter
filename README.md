@@ -9,3 +9,5 @@
 ### react-scripts
 
 - REACT_APP_YOUR_ACCESS_KEY
+
+### async+await(instead of promise)
