@@ -11,3 +11,5 @@
 - REACT_APP_YOUR_ACCESS_KEY
 
 ### async+await(instead of promise)
+
+### binding callbacks(arrow fn)
