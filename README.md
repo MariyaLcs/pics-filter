@@ -6,6 +6,6 @@
 
 - Promise based HTTP client for the browser and node.js
 
-### dotenv
+### react-scripts
 
-- Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
+- REACT_APP_YOUR_ACCESS_KEY
