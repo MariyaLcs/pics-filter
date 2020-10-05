@@ -1,8 +1,8 @@
-require("dotenv").config();
-
 import React from "react";
 import axios from "axios";
 import SearchBar from "./SearchBar";
+
+console.log(process.env.REACT_APP_YOUR_ACCESS_KEY);
 
 class App extends React.Component {
   onSearchSubmit(term) {
